@@ -1,4 +1,5 @@
 from heapq import heappush, heappop, heapify
+from collections import defaultdict
 class AuctionSystem:
 
     def __init__(self):

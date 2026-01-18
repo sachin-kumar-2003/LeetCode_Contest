@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def maxCapacity(self, costs: List[int], capacity: List[int], budget: int) -> int:
         C = [[a, b] for a, b in zip(costs, capacity)]
